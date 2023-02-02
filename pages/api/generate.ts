@@ -31,8 +31,8 @@ export default async function handler(
 
 function generatePrompt(data: Body) {
   const prompt = `
-  Generate a cron expression using the following requirements.
-  Requirements: A cron that runs ${data.prompt}
+  Generate a linux command using the following requirements.
+  Requirements: A linux command that ${data.prompt}
   Result:
   `;
   return prompt;

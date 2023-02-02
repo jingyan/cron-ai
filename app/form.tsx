@@ -32,7 +32,7 @@ export default function Form({ generateCron, result, loading }: Props) {
         <input
           name="prompt"
           type="text"
-          placeholder="every hour, every day, every 3 months, etc"
+          placeholder="check disk usage, etc."
           className="w-full rounded-md bg-neutral-800 px-2 py-5 outline-none"
           autoFocus
         />
